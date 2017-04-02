@@ -14,6 +14,41 @@
       "id": 3,
       "description": "Learn Angular testing",
       "done": false
+    },
+    {
+      "description": "Learn new syntax",
+      "done": false,
+      "id": 4
+    },
+    {
+      "description": "Learn angular event",
+      "done": false,
+      "id": 5
+    },
+    {
+      "description": "new one",
+      "done": false,
+      "id": 6
+    },
+    {
+      "description": "new two",
+      "done": false,
+      "id": 7
+    },
+    {
+      "description": "Test chain ",
+      "done": false,
+      "id": 8
+    },
+    {
+      "description": "Test chain 2",
+      "done": false,
+      "id": 9
+    },
+    {
+      "description": "Test twenty",
+      "done": false,
+      "id": 10
     }
   ]
 }

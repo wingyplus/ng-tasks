@@ -4,4 +4,8 @@
   {{ 1 + 1 }}
 </h1>
 
+<div>
+  <input type="text" #task style="border-color: blue">
+  <button (click)="createTask(task.value)">Create</button>
+</div>
 <app-task-list [tasks]="tasks"></app-task-list>
