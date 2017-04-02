@@ -1,14 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
-class Task {
-  description: string;
-  done: boolean;
-
-  constructor(description: string, done: boolean) {
-    this.description = description;
-    this.done = done;
-  }
-}
+import { Component, OnInit, Input } from '@angular/core';
+import { Task } from '../task';
 
 @Component({
   selector: 'app-task-list',
@@ -16,14 +7,10 @@ class Task {
   styleUrls: ['./task-list.component.css']
 })
 export class TaskListComponent implements OnInit {
+  @Input()
   tasks: Array<Task>;
 
   constructor() {
-    this.tasks = [
-      new Task('Learn Angular', false),
-      new Task('Learn Angular 2', false),
-      new Task('Learn Angular 4', true)
-    ];
   }
 
   ngOnInit() {
